@@ -1,0 +1,20 @@
+﻿<Window x:Class="yousef_walled.employeeboard"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:yousef_walled"
+        mc:Ignorable="d"
+        Title="employeeboard" Height="450" Width="800">
+    <Grid>
+        <DataGrid x:Name="com_tasks" HorizontalAlignment="Left" Height="116" Margin="221,293,0,0" VerticalAlignment="Top" Width="340"/>
+        <DataGrid x:Name="tasks" HorizontalAlignment="Left" Height="116" Margin="221,112,0,0" VerticalAlignment="Top" Width="340"/>
+        <Label Content="completed tasks" HorizontalAlignment="Left" Margin="321,251,0,0" VerticalAlignment="Top" Height="37" Width="140" FontSize="18"/>
+        <Label Content=" tasks" HorizontalAlignment="Left" Margin="362,70,0,0" VerticalAlignment="Top" Height="37" Width="72" FontSize="18"/>
+        <TextBox x:Name="task_text" HorizontalAlignment="Left" Height="45" Margin="100,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="512" FontSize="16"/>
+        <Button x:Name="start" Content="start" HorizontalAlignment="Left" Margin="612,20,0,0" VerticalAlignment="Top" Width="73" Height="45" FontSize="16" Click="start_Click"/>
+        <Button x:Name="complete" Content="complete" HorizontalAlignment="Left" Margin="685,20,0,0" VerticalAlignment="Top" Width="73" Height="45" FontSize="16" Click="complete_Click_1"/>
+        <Button x:Name="back" Content="back" HorizontalAlignment="Left" Margin="10,364,0,0" VerticalAlignment="Top" Width="73" Height="45" FontSize="16" Click="back_Click"/>
+
+    </Grid>
+</Window>
